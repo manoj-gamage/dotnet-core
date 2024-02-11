@@ -5,6 +5,10 @@ Built in Web Server : Kestrel
 Built in DI Container
 	Using built in extention methogs such as builder.Services.AddControllerWithViews()
 	Add custom services using builder.Services.AddScoped<ILoggerService, LoggerService>() 
+		Transient - New Instance each time
+		Singleton
+		Scoped - (Most Common - New Instance for each request)
+		
 Middleware Pipeline
 
 *******************************************************************
