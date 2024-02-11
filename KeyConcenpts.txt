@@ -2,9 +2,13 @@
 Key Concepts 
 *******************************************************************
 Built in Web Server : Kestrel
+Built in DI Container
+	Using built in extention methogs such as builder.Services.AddControllerWithViews()
+	Add custom services using builder.Services.AddScoped<ILoggerService, LoggerService>() 
+Middleware Pipeline
 
 *******************************************************************
-Important CLI Comands
+Important CLI Commands
 *******************************************************************
 dotnet new (List project templates)
 dotnet new mvc (Create project using the MVC template)
