@@ -1,0 +1,12 @@
+*******************************************************************
+Key Concepts 
+*******************************************************************
+Built in Web Server : Kestrel
+
+*******************************************************************
+Important CLI Comands
+*******************************************************************
+dotnet new (List project templates)
+dotnet new mvc (Create project using the MVC template)
+dotnet run (Build and run the application)
+dotnet new gitignore (Create git ignore file)
