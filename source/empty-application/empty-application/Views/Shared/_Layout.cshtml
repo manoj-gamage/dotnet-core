@@ -35,6 +35,9 @@
                                 <a asp-controller="Pie" asp-action="List" class="nav-link">Pies</a>
                             </li>
                         </ul>
+                        <vc:login-form model="null" />
+                        <vc:shopping-cart-summary/>
+                        @* @await Component.InvokeAsync("ShoppingCartSummary") *@
                     </div>
                 </div>
             </nav>

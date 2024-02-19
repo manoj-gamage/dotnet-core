@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace empty_application.Migrations
+namespace BethanysPieShop.Migrations
 {
     /// <inheritdoc />
     public partial class InitialMigration : Migration

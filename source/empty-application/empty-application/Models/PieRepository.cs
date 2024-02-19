@@ -1,7 +1,7 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 
-namespace empty_application.Models
+namespace BethanysPieShop.Models
 {
     public class PieRepository : IPieRepository
     {

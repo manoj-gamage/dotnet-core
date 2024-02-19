@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace empty_application.Models
+namespace BethanysPieShop.Models
 {
     public class BethanysPieShopDbContext : DbContext
     {
@@ -8,5 +8,6 @@ namespace empty_application.Models
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Pie> Pies { get; set; }
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set;}
     }
 }

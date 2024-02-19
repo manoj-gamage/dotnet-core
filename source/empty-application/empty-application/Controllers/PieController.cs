@@ -1,9 +1,9 @@
-﻿using empty_application.Models;
-using empty_application.ViewModels;
+﻿using BethanysPieShop.Models;
+using BethanysPieShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;
 
-namespace empty_application.Controllers
+namespace BethanysPieShop.Controllers
 {
     public class PieController : Controller
     {

@@ -1,8 +1,8 @@
-﻿using empty_application.Models;
-using empty_application.ViewModels;
+﻿using BethanysPieShop.Models;
+using BethanysPieShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace empty_application.Controllers
+namespace BethanysPieShop.Controllers
 {
     public class HomeController : Controller
     {

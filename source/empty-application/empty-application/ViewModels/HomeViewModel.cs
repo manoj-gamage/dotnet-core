@@ -1,6 +1,6 @@
-﻿using empty_application.Models;
+﻿using BethanysPieShop.Models;
 
-namespace empty_application.ViewModels
+namespace BethanysPieShop.ViewModels
 {
     public class HomeViewModel
     {

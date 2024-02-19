@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using empty_application.Models;
+using BethanysPieShop.Models;
 
 #nullable disable
 
-namespace empty_application.Migrations
+namespace BethanysPieShop.Migrations
 {
     [DbContext(typeof(BethanysPieShopDbContext))]
     [Migration("20240212011441_InitialMigration")]
@@ -24,7 +24,7 @@ namespace empty_application.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("empty_application.Models.Category", b =>
+            modelBuilder.Entity("BethanysPieShop.Models.Category", b =>
                 {
                     b.Property<int>("CategoryId")
                         .ValueGeneratedOnAdd()
@@ -44,7 +44,7 @@ namespace empty_application.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("empty_application.Models.Pie", b =>
+            modelBuilder.Entity("BethanysPieShop.Models.Pie", b =>
                 {
                     b.Property<int>("PieId")
                         .ValueGeneratedOnAdd()
@@ -90,9 +90,9 @@ namespace empty_application.Migrations
                     b.ToTable("Pies");
                 });
 
-            modelBuilder.Entity("empty_application.Models.Pie", b =>
+            modelBuilder.Entity("BethanysPieShop.Models.Pie", b =>
                 {
-                    b.HasOne("empty_application.Models.Category", "Category")
+                    b.HasOne("BethanysPieShop.Models.Category", "Category")
                         .WithMany("Pies")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -101,7 +101,7 @@ namespace empty_application.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("empty_application.Models.Category", b =>
+            modelBuilder.Entity("BethanysPieShop.Models.Category", b =>
                 {
                     b.Navigation("Pies");
                 });

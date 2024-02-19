@@ -1,4 +1,4 @@
-﻿namespace empty_application.Models
+﻿namespace BethanysPieShop.Models
 {
     public class Pie
     {
