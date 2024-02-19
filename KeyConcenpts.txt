@@ -11,6 +11,10 @@ Built in DI Container
 		
 Middleware Pipeline
 
+Partial View
+View Components
+Custom Tag Helpers
+
 *******************************************************************
 Important CLI Commands
 *******************************************************************
